@@ -1,7 +1,7 @@
-const data = [
+[
   {
-    category: "product",
-    items: {
+    "category": "product",
+    "items": {
       "Enterprise Products": [
         "OSCE", "TMCM", "OSCEAAS", "AOM", "CAS", "CE", "EAC", "TMEE", "IWSVA", "IWSAAS", "TMMS", "PS", "PP", "SL", "SS", "SPS", "VP", "XDR"
       ],
@@ -23,8 +23,8 @@ const data = [
     }
   },
   {
-    category: "country",
-    items: {
+    "category": "country",
+    "items": {
       "Asia Pacific": [
         "AS", "AU", "BD", "BT", "BN", "KH", "CN", "CX", "CK", "FJ", "PF", "GU", "HK", "IN", "ID", "KI", "LA", "MO", "MY", "MV", "MH", "MM", "NR", "NP", "NC", "NZ", "NU", "NF", "KP", "MP", "PK", "PW", "PG", "PH", "PN", "RU", "WS", "SG", "SB", "KR", "LK", "TH", "TL", "TK", "TO", "TV", "VU", "VN", "WF"
       ],
@@ -52,16 +52,16 @@ const data = [
     }
   },
   {
-    category: "category",
-    items: ["PC", "TC"]
+    "category": "category",
+    "items": ["PC", "TC"]
   },
   {
-    category: "segment",
-    items: ["SB", "MB", "ENT", "PSP", "HC"]
+    "category": "segment",
+    "items": ["SB", "MB", "ENT", "PSP", "HC"]
   },
   {
-    category: "rules",
-    items: [
+    "category": "rules",
+    "items": [
       {
         "product": "Enterprise Products",
         "region": "Europe",
