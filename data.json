@@ -1,82 +1,97 @@
-{
-  "product": {
-    "Enterprise Products": [
-      "OSCE", "TMCM", "OSCEAAS", "AOM", "CAS", "CE", "EAC", "TMEE", "IWSVA", "IWSAAS", "TMMS", "PS", "PP", "SL", "SS", "SPS", "VP", "XDR"
-    ],
-    "Messaging": [
-      "HES", "HES", "IMSVA", "IMSS", "IMSEC", "SMEX", "SMID", "SMLD", "TMEMS"
-    ],
-    "Cloud & Datacenter": [
-      "DS", "DSAAS", "SP"
-    ],
-    "Network Defense": [
-      "DD", "TP"
-    ],
-    "SMB Products": [
-      "LMP", "RM", "WFBSS", "WFBSA", "WFBSSVC"
-    ],
-    "TXOne Series": [
-      "EdgeFire", "EdgeIPS", "SXO", "SXP"
-    ]
-  },
-  "country": {
-    "Asia Pacific": [
-      "AS", "AU", "BD", "BT", "BN", "KH", "CN", "CX", "CK", "FJ", "PF", "GU", "HK", "IN", "ID", "KI", "LA", "MO", "MY", "MV", "MH", "MM", "NR", "NP", "NC", "NZ", "NU", "NF", "KP", "MP", "PK", "PW", "PG", "PH", "PN", "RU", "WS", "SG", "SB", "KR", "LK", "TH", "TL", "TK", "TO", "TV", "VU", "VN", "WF"
-    ],
-    "Eurasia": [
-      "AF", "AM", "AZ", "BY", "GE", "KZ", "KG", "MN", "MD", "TJ", "TM", "UA", "UZ"
-    ],
-    "Middle East": [
-      "BH", "IR", "IQ", "JO", "KW", "OM", "PS", "QA", "SA", "SY", "AE", "YE"
-    ],
-    "Mediterranean": [
-      "AL", "DZ", "BA", "CY", "GR", "IL", "LB", "LY", "MT", "MA", "TN", "TR"
-    ],
-    "Africa": [
-      "DZ", "AO", "BJ", "BW", "BF", "BI", "CM", "CV", "CF", "TD", "KM", "CI", "CD", "DJ", "EG", "GQ", "ER", "SZ", "ET", "GA", "GM", "GH", "GN", "GW", "KE", "LS", "LR", "LY", "MG", "MW", "ML", "MR", "MU", "YT", "MA", "MZ", "NA", "NE", "NG", "CG", "RE", "RW", "SH", "ST", "SN", "SC", "SL", "SO", "ZA", "SS", "SD", "TZ", "TG", "TN", "UG", "ZM", "ZW", "EH"
-    ],
-    "Europe": [
-      "AL", "AD", "AT", "BE", "BA", "BG", "HR", "CY", "CZ", "DK", "EE", "FO", "FI", "FR", "DE", "GI", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU", "MC", "ME", "NL", "MK", "NO", "PL", "PT", "RO", "SM", "RS", "SK", "SI", "ES", "SE", "CH", "UK", "VA"
-    ],
-    "North America": [
-      "AG", "BS", "BB", "BZ", "CA", "DM", "GD", "GY", "JM", "KN", "LC", "VC", "SR", "TT", "US"
-    ],
-    "Latin America": [
-      "AR", "BO", "BR", "CL", "CO", "CR", "CU", "DO", "EC", "SV", "GT", "HT", "HN", "MX", "NI", "PA", "PY", "PE", "UY", "VE"
-    ]
-  },
-  "category": ["PC", "TC"],
-  "segment": ["SB", "MB", "ENT", "PSP", "HC"],
-  "rules": [
-    {
-      "product": "ENT",
-      "region": "EMEA",
-      "category": "PC",
-      "segment": ["SB", "MB", "HC <= 500"],
-      "result": "PH MB MID"
-    },
-    {
-      "product": "ENT",
-      "region": "EMEA",
-      "category": "PC",
-      "segment": "ENT",
-      "condition": "HC > 500",
-      "result": "Europe-EnterpriseSupport"
-    },
-    {
-      "product": "ENT",
-      "region": "EMEA",
-      "category": "TC",
-      "segment": ["ENT", "PSP"],
-      "condition": "HC > 500",
-      "result": "Europe–ThreatSupport"
-    },
-    {
-      "product": "ENT",
-      "region": "EMEA",
-      "category": "PC",
-      "segment": "PSP",
-      "result": "Europe–PremiumSupport"
+const data = [
+  {
+    category: "product",
+    items: {
+      "Enterprise Products": [
+        "OSCE", "TMCM", "OSCEAAS", "AOM", "CAS", "CE", "EAC", "TMEE", "IWSVA", "IWSAAS", "TMMS", "PS", "PP", "SL", "SS", "SPS", "VP", "XDR"
+      ],
+      "Messaging": [
+        "HES", "HES", "IMSVA", "IMSS", "IMSEC", "SMEX", "SMID", "SMLD", "TMEMS"
+      ],
+      "Cloud & Datacenter": [
+        "DS", "DSAAS", "SP"
+      ],
+      "Network Defense": [
+        "DD", "TP"
+      ],
+      "SMB Products": [
+        "LMP", "RM", "WFBSS", "WFBSA", "WFBSSVC"
+      ],
+      "TXOne Series": [
+        "EdgeFire", "EdgeIPS", "SXO", "SXP"
+      ]
     }
-  ]
-}
+  },
+  {
+    category: "country",
+    items: {
+      "Asia Pacific": [
+        "AS", "AU", "BD", "BT", "BN", "KH", "CN", "CX", "CK", "FJ", "PF", "GU", "HK", "IN", "ID", "KI", "LA", "MO", "MY", "MV", "MH", "MM", "NR", "NP", "NC", "NZ", "NU", "NF", "KP", "MP", "PK", "PW", "PG", "PH", "PN", "RU", "WS", "SG", "SB", "KR", "LK", "TH", "TL", "TK", "TO", "TV", "VU", "VN", "WF"
+      ],
+      "Eurasia": [
+        "AF", "AM", "AZ", "BY", "GE", "KZ", "KG", "MN", "MD", "TJ", "TM", "UA", "UZ"
+      ],
+      "Middle East": [
+        "BH", "IR", "IQ", "JO", "KW", "OM", "PS", "QA", "SA", "SY", "AE", "YE"
+      ],
+      "Mediterranean": [
+        "AL", "DZ", "BA", "CY", "GR", "IL", "LB", "LY", "MT", "MA", "TN", "TR"
+      ],
+      "Africa": [
+        "DZ", "AO", "BJ", "BW", "BF", "BI", "CM", "CV", "CF", "TD", "KM", "CI", "CD", "DJ", "EG", "GQ", "ER", "SZ", "ET", "GA", "GM", "GH", "GN", "GW", "KE", "LS", "LR", "LY", "MG", "MW", "ML", "MR", "MU", "YT", "MA", "MZ", "NA", "NE", "NG", "CG", "RE", "RW", "SH", "ST", "SN", "SC", "SL", "SO", "ZA", "SS", "SD", "TZ", "TG", "TN", "UG", "ZM", "ZW", "EH"
+      ],
+      "Europe": [
+        "AL", "AD", "AT", "BE", "BA", "BG", "HR", "CY", "CZ", "DK", "EE", "FO", "FI", "FR", "DE", "GI", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU", "MC", "ME", "NL", "MK", "NO", "PL", "PT", "RO", "SM", "RS", "SK", "SI", "ES", "SE", "CH", "UK", "VA"
+      ],
+      "North America": [
+        "AG", "BS", "BB", "BZ", "CA", "DM", "GD", "GY", "JM", "KN", "LC", "VC", "SR", "TT", "US"
+      ],
+      "Latin America": [
+        "AR", "BO", "BR", "CL", "CO", "CR", "CU", "DO", "EC", "SV", "GT", "HT", "HN", "MX", "NI", "PA", "PY", "PE", "UY", "VE"
+      ]
+    }
+  },
+  {
+    category: "category",
+    items: ["PC", "TC"]
+  },
+  {
+    category: "segment",
+    items: ["SB", "MB", "ENT", "PSP", "HC"]
+  },
+  {
+    category: "rules",
+    items: [
+      {
+        "product": "Enterprise Products",
+        "region": "Europe",
+        "category": "PC",
+        "segment": ["SB", "MB", "HC <= 500"],
+        "result": "PH MB MID"
+      },
+      {
+        "product": "Enterprise Products",
+        "region": "EMEA",
+        "category": "PC",
+        "segment": "ENT",
+        "condition": "HC > 500",
+        "result": "Europe-EnterpriseSupport"
+      },
+      {
+        "product": "Enterprise Products",
+        "region": "EMEA",
+        "category": "TC",
+        "segment": ["ENT", "PSP"],
+        "condition": "HC > 500",
+        "result": "Europe–ThreatSupport"
+      },
+      {
+        "product": "Enterprise Products",
+        "region": "EMEA",
+        "category": "PC",
+        "segment": "PSP",
+        "result": "Europe–PremiumSupport"
+      }
+    ]
+  }
+];
