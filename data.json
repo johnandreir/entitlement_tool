@@ -1,32 +1,32 @@
 {
   "rules": [
     {
-      "conditions": [
-        {
-          "type": "array_contains",
-          "field": "product",
-          "values": ["OSCE"],
-          "array": "Enterprise Products"
-        },
-        {
-          "type": "array_contains",
-          "field": "country",
-          "values": ["DE"],
-          "array": "Europe"
-        },
-        {
-          "type": "array_contains",
-          "field": "category",
-          "values": ["PC"]
-        },
-        {
-          "type": "array_contains",
-          "field": "segment",
-          "values": ["SB"]
-        }
-      ],
-      "result": "PH MB MID"
-  }
+  "conditions": [
+    {
+      "type": "array_contains",
+      "field": "product",
+      "values": ["$product"],
+      "array": "Enterprise Products"
+    },
+    {
+      "type": "array_contains",
+      "field": "country",
+      "values": ["$country"],
+      "array": "Europe"
+    },
+    {
+      "type": "array_contains",
+      "field": "category",
+      "values": ["$category"]
+    },
+    {
+      "type": "array_contains",
+      "field": "segment",
+      "values": ["$segment"]
+    }
+  ],
+  "result": "PH MB MID"
+}
   ],
   "data": {
     "product": {
