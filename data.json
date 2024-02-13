@@ -1,14 +1,32 @@
 {
   "rules": [
     {
-      "conditions": {
-        "product": ["Enterprise Products"],
-        "country": ["Europe"],
-        "category": ["PC"],
-        "segment": ["SB"]
-      },
-      "result": "PH MB Mid"
-    }
+      "conditions": [
+        {
+          "type": "array_contains",
+          "field": "product",
+          "values": ["OSCE"],
+          "array": "Enterprise Products"
+        },
+        {
+          "type": "array_contains",
+          "field": "country",
+          "values": ["DE"],
+          "array": "Europe"
+        },
+        {
+          "type": "array_contains",
+          "field": "category",
+          "values": ["PC"]
+        },
+        {
+          "type": "array_contains",
+          "field": "segment",
+          "values": ["SB"]
+        }
+      ],
+      "result": "PH MB MID"
+  }
   ],
   "data": {
     "product": {
