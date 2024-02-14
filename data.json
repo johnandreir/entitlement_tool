@@ -1,14 +1,17 @@
 {
   "data": {
     "product": {
-      "Enterprise Products": [
-        "OSCE", "TMCM", "OSCEAAS", "AOM", "CAS", "CE", "EAC", "TMEE", "IWSVA", "IWSAAS", "TMMS", "PS", "PP", "SL", "SS", "SPS", "VP", "XDR"
+      "Endpoint Security": [
+        "OSCE", "TMCM", "OSCEAAS", "AOM", "PS", "SL", "TMMS", "PP", "SS", "SPS", "VP", "CE", "EAC", "TMEE", "IWSVA", "IWSAAS"
       ],
       "Messaging": [
-        "HES", "HES", "IMSVA", "IMSS", "IMSEC", "SMEX", "SMID", "SMLD", "TMEMS"
+        "HES", "TMEMS", "CAS", "ERS", "IMSVA", "IMSS", "IMSEC", "SMEX", "SMID", "SMLD"
       ],
-      "Cloud & Datacenter": [
-        "DS", "DSAAS", "SP"
+      "Cloud One": [
+        "DSAAS"
+      ],
+      "Hybrid Cloud": [
+        "DS", "SP"
       ],
       "Network Defense": [
         "DD", "TP"
@@ -16,6 +19,9 @@
       "SMB Products": [
         "LMP", "RM", "WFBSS", "WFBSA", "WFBSSVC"
       ],
+      "XDR": [
+        "XDR"
+      ]
       "TXOne Series": [
         "EdgeFire", "EdgeIPS", "SXO", "SXP"
       ]
