@@ -12,7 +12,7 @@
       "type": "array_contains",
       "field": "country",
       "values": ["$country"],
-      "array": "Europe"
+      "array": "EU"
     },
     {
       "type": "array_contains",
