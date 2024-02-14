@@ -50,23 +50,11 @@
       ]
     },
     "country": {
-      "Asia Pacific": [
-        "AS", "AU", "BD", "BT", "BN", "KH", "CN", "CX", "CK", "FJ", "PF", "GU", "HK", "IN", "ID", "KI", "LA", "MO", "MY", "MV", "MH", "MM", "NR", "NP", "NC", "NZ", "NU", "NF", "KP", "MP", "PK", "PW", "PG", "PH", "PN", "RU", "WS", "SG", "SB", "KR", "LK", "TH", "TL", "TK", "TO", "TV", "VU", "VN", "WF"
+      "APAC": [
+        "AS", "AU", "BD", "BT", "BN", "KH", "CN", "CX", "CK", "FJ", "PF", "GU", "HK", "IN", "ID", "JP", "KI", "LA", "MO", "MY", "MV", "MH", "MN", "MM", "NR", "NP", "NC", "NZ", "NU", "NF", "KP", "MP", "PK", "PW", "PG", "PH", "PN", "RU", "WS", "SG", "SB", "KR", "LK", "TW", "TH", "TL", "TK", "TO", "TV", "VU", "VN", "WF", "AZ", "KG", "TJ", "TM", "UZ", "AF", "AM", "GE", "KZ", "KG", "MN", "TJ", "TM", "UZ", "BH", "IR", "IQ", "KW", "OM", "PS", "QA", "SA", "AE", "YE", "AU", "NZ"
       ],
-      "Eurasia": [
-        "AF", "AM", "AZ", "BY", "GE", "KZ", "KG", "MN", "MD", "TJ", "TM", "UA", "UZ"
-      ],
-      "Middle East": [
-        "BH", "IR", "IQ", "JO", "KW", "OM", "PS", "QA", "SA", "SY", "AE", "YE"
-      ],
-      "Mediterranean": [
-        "AL", "DZ", "BA", "CY", "GR", "IL", "LB", "LY", "MT", "MA", "TN", "TR"
-      ],
-      "Africa": [
-        "DZ", "AO", "BJ", "BW", "BF", "BI", "CM", "CV", "CF", "TD", "KM", "CI", "CD", "DJ", "EG", "GQ", "ER", "SZ", "ET", "GA", "GM", "GH", "GN", "GW", "KE", "LS", "LR", "LY", "MG", "MW", "ML", "MR", "MU", "YT", "MA", "MZ", "NA", "NE", "NG", "CG", "RE", "RW", "SH", "ST", "SN", "SC", "SL", "SO", "ZA", "SS", "SD", "TZ", "TG", "TN", "UG", "ZM", "ZW", "EH"
-      ],
-      "Europe": [
-        "AL", "AD", "AT", "BE", "BA", "BG", "HR", "CY", "CZ", "DK", "EE", "FO", "FI", "FR", "DE", "GI", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU", "MC", "ME", "NL", "MK", "NO", "PL", "PT", "RO", "SM", "RS", "SK", "SI", "ES", "SE", "CH", "UK", "VA"
+      "EU": [
+        "DZ", "AO", "BJ", "BW", "BF", "BI", "CM", "CV", "CF", "TD", "KM", "CD", "DJ", "EG", "GQ", "ER", "SZ", "ET", "GA", "GM", "GH", "GN", "GW", "CI", "KE", "LS", "LR", "LY", "MG", "MW", "ML", "MR", "MU", "YT", "MA", "MZ", "NA", "NE", "NG", "CG", "RE", "RW", "SH", "ST", "SN", "SC", "SL", "SO", "ZA", "SS", "SD", "TZ", "TG", "TN", "UG", "ZM", "ZW", "EH", "AL", "AD", "AT", "BY", "BE", "BA", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "FO", "DE", "GI", "GR", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU", "MD", "MC", "ME", "NL", "MK", "NO", "PL", "PT", "RO", "SM", "RS", "SK", "SI", "ES", "SE", "CH", "UA", "UK", "VA", "JO", "SY", "AL", "BA", "HR", "CY", "GR", "IL", "LB", "LY", "MT", "MA", "TN", "TR"
       ],
       "North America": [
         "AG", "BS", "BB", "BZ", "CA", "DM", "GD", "GY", "JM", "KN", "LC", "VC", "SR", "TT", "US"
