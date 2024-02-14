@@ -33,6 +33,12 @@
       "EU": [
         "AL", "AD", "AT", "BE", "BA", "BG", "HR", "CY", "CZ", "DK", "EE", "FO", "FI", "FR", "DE", "GI", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU", "MC", "ME", "NL", "MK", "NO", "PL", "PT", "RO", "SM", "RS", "SK", "SI", "ES", "SE", "CH", "UK", "VA"
       ],
+       "MED": [
+        "AL", "DZ", "BA", "HR", "CY", "GR", "IL", "LB", "LY", "MT", "MA", "TN", "TR"
+      ],
+       "GMT2": [
+        "JO", "SY"
+      ],
       "NABU": [
         "AG", "BS", "BB", "BZ", "CA", "DM", "GD", "GY", "JM", "KN", "LC", "VC", "SR", "TT", "US"
       ],
