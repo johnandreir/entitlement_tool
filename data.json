@@ -2,16 +2,13 @@
   "data": {
     "product": {
       "Endpoint Security": [
-        "OSCE", "TMCM", "OSCEAAS", "AOM", "PS", "SL", "TMMS", "PP", "SS", "SPS", "VP", "CE", "EAC", "TMEE", "IWSVA", "IWSAAS"
+        "OSCE", "TMCM", "OSCEAAS", "AOM", "PS", "SL", "TMMS", "PP", "SS", "SPS", "CE", "EAC", "TMEE", "IWSVA", "IWSAAS"
       ],
       "Messaging": [
         "HES", "TMEMS", "CAS", "ERS", "IMSVA", "IMSS", "IMSEC", "SMEX", "SMID", "SMLD"
       ],
-      "Cloud One": [
-        "DSAAS"
-      ],
       "Hybrid Cloud": [
-        "DS", "SP"
+        "DS", "DSAAS", "SP", "VP"
       ],
       "Network Defense": [
         "DD", "TP"
