@@ -39,6 +39,9 @@
        "MED": [
         "AL", "DZ", "BA", "HR", "CY", "GR", "IL", "LB", "LY", "MT", "MA", "TN", "TR"
       ],
+      "MENA": [
+        "BH", "DZ", "EG", "IQ", "JO", "KW", "LB", "MA", "OM", "SA", "AE","TN"
+      ],
        "GMT2": [
         "CY", "IL", "LB", "JO", "SY", "TR"
       ],
