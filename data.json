@@ -4,6 +4,9 @@
       "Endpoint Security": [
         "OSCE", "TMCM", "OSCEAAS", "AOM", "PS", "SL", "TMMS", "PP", "SS", "SPS", "CE", "EAC", "TMEE", "IWSVA", "IWSAAS"
       ],
+      "MENA Products": [
+        "OSCE", "TMCM", "OSCEAAS", "AOM", "TMMS", "SPS", "IWSVA", "IWSAAS", "IWSVA"
+      ],
       "Messaging": [
         "HES", "TMEMS", "CAS", "IMSVA", "IMSS", "IMSEC", "SMEX", "SMID", "SMLD"
       ],
