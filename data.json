@@ -30,6 +30,9 @@
       "APAC": [
         "AS", "AU", "BD", "BT", "BN", "KH", "CN", "CX", "CK", "FJ", "PF", "GU", "HK", "IN", "ID", "JP", "KI", "LA", "MO", "MY", "MV", "MH", "MN", "MM", "NR", "NP", "NC", "NZ", "NU", "NF", "KP", "MP", "PK", "PW", "PG", "PH", "PN", "RU", "WS", "SG", "SB", "KR", "LK", "TW", "TH", "TL", "TK", "TO", "TV", "VU", "VN", "WF", "AZ", "KG", "TJ", "TM", "UZ"
       ],
+       "MENA": [
+        "BH", "DZ", "EG", "IQ", "JO", "KW", "LB", "MA", "OM", "SA", "AE","TN"
+      ],
       "MID": [
         "AF", "AM", "GE", "KZ", "KG", "MN", "TJ", "TM", "UZ", "BH", "IR", "IQ", "KW", "OM", "PS", "QA", "SA", "AE", "YE"
       ],
@@ -41,9 +44,6 @@
       ],
        "MED": [
         "AL", "DZ", "BA", "HR", "CY", "IL", "LB", "LY", "MT", "MA", "TN", "TR"
-      ],
-      "MENA": [
-        "BH", "DZ", "EG", "IQ", "JO", "KW", "LB", "MA", "OM", "SA", "AE","TN"
       ],
        "GMT2": [
         "CY", "IL", "LB", "JO", "SY", "TR"
