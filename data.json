@@ -31,7 +31,7 @@
         "BH", "DZ", "EG", "IQ", "JO", "KW", "LB", "MA", "OM", "SA", "AE","TN"
       ],
       "APAC": [
-        "AS", "AU", "BD", "BT", "BN", "KH", "CN", "CX", "CK", "FJ", "PF", "GU", "HK", "IN", "ID", "JP", "KI", "LA", "MO", "MY", "MV", "MH", "MN", "MM", "NR", "NP", "NC", "NZ", "NU", "NF", "KP", "MP", "PK", "PW", "PG", "PH", "PN", "RU", "WS", "SG", "SB", "KR", "LK", "TW", "TH", "TL", "TK", "TO", "TV", "VU", "VN", "WF", "AZ", "KG", "TJ", "TM", "UZ"
+        "AS", "AU", "BD", "BT", "BN", "KH", "CN", "CX", "CK", "FJ", "PF", "GU", "HK", "IN", "ID", "JP", "KI", "LA", "MO", "MY", "MV", "MH", "MN", "MM", "NR", "NP", "NC", "NZ", "NU", "NF", "KP", "MP", "PK", "PW", "PG", "PH", "PN", "WS", "SG", "SB", "KR", "LK", "TW", "TH", "TL", "TK", "TO", "TV", "VU", "VN", "WF", "AZ", "KG", "TJ", "TM", "UZ"
       ],
       "MID": [
         "AF", "AM", "GE", "KZ", "KG", "MN", "TJ", "TM", "UZ", "BH", "IR", "IQ", "KW", "OM", "PS", "QA", "SA", "AE", "YE"
@@ -40,7 +40,7 @@
         "DZ", "AO", "BJ", "BW", "BF", "BI", "CM", "CV", "CF", "TD", "KM", "CD", "DJ", "EG", "GQ", "ER", "SZ", "ET", "GA", "GM", "GH", "GN", "GW", "CI", "KE", "LS", "LR", "LY", "MG", "MW", "ML", "MR", "MU", "YT", "MA", "MZ", "NA", "NE", "NG", "CG", "RE", "RW", "SH", "ST", "SN", "SC", "SL", "SO", "ZA", "SS", "SD", "TZ", "TG", "TN", "UG", "ZM", "ZW", "EH"
       ],
       "EU": [
-        "AL", "AD", "AT", "BE", "BA", "BG", "HR", "CZ", "DK", "EE", "FO", "FI", "FR", "DE", "GI", "GR", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU", "MC", "ME", "NL", "MK", "NO", "PL", "PT", "RO", "SM", "RS", "SK", "SI", "ES", "SE", "CH", "UK", "VA"
+        "AL", "AD", "AT", "BE", "BA", "BG", "HR", "CZ", "DK", "EE", "FO", "FI", "FR", "DE", "GI", "GR", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU", "MC", "ME", "NL", "MK", "NO", "PL", "PT", "RO", "RU", "SM", "RS", "SK", "SI", "ES", "SE", "CH", "UK", "VA"
       ],
        "MED": [
         "AL", "DZ", "BA", "HR", "CY", "IL", "LB", "LY", "MT", "MA", "TN", "TR"
